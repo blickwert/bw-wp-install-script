@@ -1,0 +1,5 @@
+# Konfiguration und Doku nicht ausliefern
+<FilesMatch "^(config(\.example)?\.php|.*\.md|\.gitignore)$">
+    Require all denied
+</FilesMatch>
+Options -Indexes
