@@ -1,0 +1,11 @@
+# Plugins für jede neue Instanz. Eine Zeile pro Plugin:
+#   <slug>               Plugin von wordpress.org (immer die aktuelle Version)
+#   zip:<datei.zip>      lokale ZIP aus templates/wp-base/plugins/ (z. B. gekauftes Plugin)
+#   dir:<ordner>         lokaler Ordner aus templates/wp-base/plugins/
+# Mit dem Zusatz "inactive" hinter dem Eintrag wird das Plugin installiert, aber nicht aktiviert.
+#
+# Beispiele (ohne # davor aktivieren):
+# classic-editor
+# wordpress-seo inactive
+# zip:mein-plugin.zip
+# dir:bw-wp-bridge

@@ -1,0 +1,5 @@
+# Zugangsdaten und Laufzeitdaten gehören nie ins Repo
+/config.php
+/data/
+/cache/
+.DS_Store
